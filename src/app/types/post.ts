@@ -1,4 +1,4 @@
-import Theme from './theme';
+import { Theme } from './theme';
 import { UserId } from './user-id';
 
 export interface Post {

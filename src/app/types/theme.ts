@@ -1,6 +1,6 @@
 import { UserId } from './user-id';
 
-export default interface Theme {
+export interface Theme {
   subscribers: string[];
   posts: string[];
   _id: string;
