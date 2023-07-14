@@ -7,7 +7,7 @@
       study in SoftUni.
     </p>
     <div class="logged">
-      <ul>
+      <ul *ngIf="!isLogged">
         <li>
           <a routerLink="/login">
             <i class="fas fa-sign-in-alt"></i>

@@ -9,12 +9,12 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
-    canActivate: [AuthActivate],
+    // canActivate: [AuthActivate],
   },
   {
     path: 'register',
-    canActivate: [AuthActivate],
     component: RegisterComponent,
+    // canActivate: [AuthActivate],
   },
 
   {
