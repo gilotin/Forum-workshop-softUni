@@ -10,9 +10,9 @@ import { PostsListComponent } from './posts-list/posts-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
 import { HomeComponent } from './home/home.component';
-import { UserRoutingModule } from './user/user-routing.module';
 import { ThemeModule } from './theme/theme.module';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
@@ -29,8 +29,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
     CoreModule,
     HttpClientModule,
     SharedModule,
-    UserRoutingModule,
+    UserModule,
     ThemeModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
